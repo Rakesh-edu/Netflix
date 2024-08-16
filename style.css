@@ -1,274 +1,138 @@
-*{
-    padding: 0px;
-    margin: 0px;
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    color:white;
-    background-color: #00000066;
+    font-family: Arial, sans-serif;
 }
-.main-picture{
-    height: 700px;
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+a {
+    color: #708871;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main Picture Section */
+.main-picture {
+    height: 100vh;
     width: 100%;
     background-image: url("https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.jpg");
-    opacity: 0.7;
-    display: flex;
-    justify-content: center;
-}
-.header{
-    height:48px ;
-    width: 976px;
-    margin-top: 20px;
-    display: flex;  
-    justify-content: flex-end;
-    align-items: center; 
-    background: transparent;
-}
-.deng{
-    background-color: transparent;
-}
-.sign,.sel{
-    height: 35px;
-    width: 90px;
-}
-.sign{
-    margin-right: 70px;
-}
-.unli{
-    height:65px;
-    width: 907px;
-    margin-top: 220px;
-    background-color: transparent;
-    margin-left: 50px;
-    color: rgb(255, 255, 255);
-    font-weight: 1000;
-    font-size: 50px;
-}
-.watch{
-    height: 32px;
-    width: 907px;
-    background-color: none;
-    margin: 20px 0px 0px 70px;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-}
-.ready{
-    height: 30px;
-    width: 843px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:20px 0px 0px 70px ;
-    font-size: 25px;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-}
-.emis{
-    margin: 20px 0px 0px 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    background-color: transparent;
-}
-.p1,.p2,.p3,.p4{
-    margin-top: 10px;
-    height:503px;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.out,.out1{
-    height:360px ;
-    width: 100%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box1,.box4{
-height: 200px;
-width: 480px;
 
-}
-.box2,.box3{
-height: 355px;
-width: 474px;
-margin-left: 5px;
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy9CbaXdu-3cyYiSI2LAPZ9Zex9ylQKDGE7w&s");
-background-size: cover;
-background-repeat: no-repeat;
-
-}
-.enjoy{
-    height: 65px;
-    width: 474px;
-    font-size: 48px;
-    font-weight: 900;
-}
-.text{
-    height:96px ;
-    width: 474px;
-    margin-top: 16px;
-    font-weight: bolder;
-    font-size: large;
-    line-height: 30px;
-}
-.box3{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmy0ujp5nyz7_roOvTyblB_TUZzJ0HYqL3eQ&s");
-    background-size: cover;
-    background-repeat: no-repeat;   
-}
-.box4{
-    margin-left: 5px;
-}
-.text1{
-    padding-top:50px ;
-    font-weight: bolder;
-    font-size: large;
-    line-height: 30px;
-}
-#b{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEMatyhi9YictjTjJZTFkmJ_cXnCPeAVhT3w&s");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#b3{
-    background-image: url("https://occ-0-7541-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#tp{
-    padding-top: 10px;
-}
-.queries{
-    height: 1050px;
+.overlay {
     width: 100%;
-    margin-top: 10px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: black;
+    padding: 20px;
 }
-.ques{
-    height:780px ;
-    width:960px;
-}
-.div1{
-    height: 64px;
-    width: 960px;
+
+.header {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
-h1{
-    font-size: 50px;
-}
-.div2,.div3,.div4,.div5,.div6,.div7,.div8{
-    margin-top: 24px;
-    height: 84px;
-    width: 960px;
-    background-color: #708871;
-}
-.div8{
-    font: large;
-    font-size: 25px;
-    height: 102px;
-    width: 896px;
-    margin-left: 36px;
-    background-color: black;
-}
-.email{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.input{
-    height: 56px;
-    width: 370px;
-    font-size: 20px;
-    border-radius: 4px;
-    border: 0.5px solid whitesmoke;
-}
-button{
-    height: 56px;
-    width: 207px;
-    margin-left: 4px;
-    background-color: #FF0000;
-    font-size: 20px;
-    border-radius: 4px;
+
+.sel, .sign {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
-}
-button:hover{
-    background-color: #df1f1f;
-}
-.footer{
-    height: 400px;
-    width: 100%;
-    margin-top: 10px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.keeper{
-    height: 300px;
-    width: 972px;
-    
-}
-.call{
-    font-size: 20px;
-   
-}
-a{
-    display: inline;
-}
-.list{
-    margin-top: 20px;
-    display: flex;
-    justify-content:space-between ;
-    font-weight: 200px;
-    color: #708871;
-}
-a:hover{
-    text-decoration: underline;
-    text-decoration-color: rgb(214, 201, 201);
-    text-decoration-thickness:2px ;
+    color: white;
     cursor: pointer;
 }
-.selector{
-    margin-top: 20px;
+
+.content {
+    text-align: center;
+    max-width: 700px;
 }
-select{
-    height: 30px;
-    width: 80px;
-    border-radius: 4px;
+
+.unli {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
-.bottom{
-    margin-top: 15px;
+
+.watch, .ready {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
-.div2,.div3,.div4,.div5,.div6,.div7{
+
+.emis {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
-.div9{
-    height:40px ;
-    width: 960px;
-    background-color: #708871;
+
+.input {
+    height: 50px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
 }
-#set{
-    font-size: 30px;
-    padding-left: 5px;
-    background-color: #708871;
+
+.btn {
+    height: 50px;
+    padding: 0 20px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
 }
-#plus{
-    margin-right: 40px;
-    font-size: 50px;
-    background-color:#708871;
+
+.btn:hover {
+    background-color: #df1f1f;
 }
+
+/* Sections Styling */
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 48%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.image-box1,.image-box3 {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+}
+.image-box2,.image-box4 {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    margin-right: 50px;
+}
+
+/* Queries
